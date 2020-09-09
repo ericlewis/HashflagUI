@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,8 +11,12 @@
 		687FBAC3250824AC00EADA03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FBAC2250824AC00EADA03 /* ContentView.swift */; };
 		687FBAC5250824AD00EADA03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687FBAC4250824AD00EADA03 /* Assets.xcassets */; };
 		687FBAC8250824AD00EADA03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687FBAC7250824AD00EADA03 /* Preview Assets.xcassets */; };
-		687FBACA250824AD00EADA03 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FBAC9250824AD00EADA03 /* Persistence.swift */; };
-		687FBACD250824AD00EADA03 /* Hashflag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 687FBACB250824AD00EADA03 /* Hashflag.xcdatamodeld */; };
+		687FBAD6250824CF00EADA03 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 687FBAD5250824CF00EADA03 /* SDWebImageSwiftUI */; };
+		687FBAD9250824F300EADA03 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 687FBAD8250824F300EADA03 /* Lottie */; };
+		687FBADB25082B3600EADA03 /* ViewControllerResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FBADA25082B3600EADA03 /* ViewControllerResolver.swift */; };
+		687FBADD25082B4E00EADA03 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FBADC25082B4E00EADA03 /* SearchBar.swift */; };
+		687FBADF25082CEB00EADA03 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FBADE25082CEB00EADA03 /* Model.swift */; };
+		687FBAE225082D9100EADA03 /* BetterSafariView in Frameworks */ = {isa = PBXBuildFile; productRef = 687FBAE125082D9100EADA03 /* BetterSafariView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +25,10 @@
 		687FBAC2250824AC00EADA03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		687FBAC4250824AD00EADA03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		687FBAC7250824AD00EADA03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		687FBAC9250824AD00EADA03 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		687FBACC250824AD00EADA03 /* Hashflag.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hashflag.xcdatamodel; sourceTree = "<group>"; };
 		687FBACE250824AD00EADA03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687FBADA25082B3600EADA03 /* ViewControllerResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerResolver.swift; sourceTree = "<group>"; };
+		687FBADC25082B4E00EADA03 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		687FBADE25082CEB00EADA03 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +36,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				687FBAD6250824CF00EADA03 /* SDWebImageSwiftUI in Frameworks */,
+				687FBAE225082D9100EADA03 /* BetterSafariView in Frameworks */,
+				687FBAD9250824F300EADA03 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,10 +66,11 @@
 			children = (
 				687FBAC0250824AC00EADA03 /* HashflagApp.swift */,
 				687FBAC2250824AC00EADA03 /* ContentView.swift */,
+				687FBADE25082CEB00EADA03 /* Model.swift */,
+				687FBADC25082B4E00EADA03 /* SearchBar.swift */,
+				687FBADA25082B3600EADA03 /* ViewControllerResolver.swift */,
 				687FBAC4250824AD00EADA03 /* Assets.xcassets */,
-				687FBAC9250824AD00EADA03 /* Persistence.swift */,
 				687FBACE250824AD00EADA03 /* Info.plist */,
-				687FBACB250824AD00EADA03 /* Hashflag.xcdatamodeld */,
 				687FBAC6250824AD00EADA03 /* Preview Content */,
 			);
 			path = Hashflag;
@@ -91,6 +100,11 @@
 			dependencies = (
 			);
 			name = Hashflag;
+			packageProductDependencies = (
+				687FBAD5250824CF00EADA03 /* SDWebImageSwiftUI */,
+				687FBAD8250824F300EADA03 /* Lottie */,
+				687FBAE125082D9100EADA03 /* BetterSafariView */,
+			);
 			productName = Hashflag;
 			productReference = 687FBABD250824AC00EADA03 /* Hashflag.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +132,11 @@
 				Base,
 			);
 			mainGroup = 687FBAB4250824AC00EADA03;
+			packageReferences = (
+				687FBAD4250824CF00EADA03 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				687FBAD7250824F200EADA03 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				687FBAE025082D9100EADA03 /* XCRemoteSwiftPackageReference "BetterSafariView" */,
+			);
 			productRefGroup = 687FBABE250824AC00EADA03 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -144,10 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				687FBACA250824AD00EADA03 /* Persistence.swift in Sources */,
+				687FBADF25082CEB00EADA03 /* Model.swift in Sources */,
+				687FBADB25082B3600EADA03 /* ViewControllerResolver.swift in Sources */,
 				687FBAC3250824AC00EADA03 /* ContentView.swift in Sources */,
 				687FBAC1250824AC00EADA03 /* HashflagApp.swift in Sources */,
-				687FBACD250824AD00EADA03 /* Hashflag.xcdatamodeld in Sources */,
+				687FBADD25082B4E00EADA03 /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,18 +357,50 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCVersionGroup section */
-		687FBACB250824AD00EADA03 /* Hashflag.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				687FBACC250824AD00EADA03 /* Hashflag.xcdatamodel */,
-			);
-			currentVersion = 687FBACC250824AD00EADA03 /* Hashflag.xcdatamodel */;
-			path = Hashflag.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
+/* Begin XCRemoteSwiftPackageReference section */
+		687FBAD4250824CF00EADA03 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
 		};
-/* End XCVersionGroup section */
+		687FBAD7250824F200EADA03 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.8;
+			};
+		};
+		687FBAE025082D9100EADA03 /* XCRemoteSwiftPackageReference "BetterSafariView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stleamist/BetterSafariView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		687FBAD5250824CF00EADA03 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 687FBAD4250824CF00EADA03 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		687FBAD8250824F300EADA03 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 687FBAD7250824F200EADA03 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		687FBAE125082D9100EADA03 /* BetterSafariView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 687FBAE025082D9100EADA03 /* XCRemoteSwiftPackageReference "BetterSafariView" */;
+			productName = BetterSafariView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 687FBAB5250824AC00EADA03 /* Project object */;
 }
