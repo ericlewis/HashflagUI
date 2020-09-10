@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17189" systemVersion="20A5354i" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Animated" representedClassName="Animated" syncable="YES" codeGenerationType="class">
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="URI"/>
+        <attribute name="urlString" optional="YES" attributeType="String"/>
+        <relationship name="campaign" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Campaign" inverseName="animations" inverseEntity="Campaign"/>
+    </entity>
+    <entity name="Campaign" representedClassName="Campaign" syncable="YES" codeGenerationType="class">
+        <attribute name="endDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="image" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="imageURL" optional="YES" attributeType="URI"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="animations" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Animated" inverseName="campaign" inverseEntity="Animated"/>
+        <relationship name="hashtags" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Hashtag" inverseName="campaign" inverseEntity="Hashtag"/>
+    </entity>
+    <entity name="Hashtag" representedClassName="Hashtag" syncable="YES" codeGenerationType="class">
+        <attribute name="value" optional="YES" attributeType="String"/>
+        <relationship name="campaign" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Campaign" inverseName="hashtags" inverseEntity="Campaign"/>
+    </entity>
+    <elements>
+        <element name="Campaign" positionX="-18" positionY="63" width="128" height="134"/>
+        <element name="Hashtag" positionX="9" positionY="81" width="128" height="59"/>
+        <element name="Animated" positionX="45" positionY="153" width="128" height="89"/>
+    </elements>
+</model>

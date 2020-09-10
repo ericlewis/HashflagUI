@@ -17,7 +17,126 @@
 		687FBADD25082B4E00EADA03 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FBADC25082B4E00EADA03 /* SearchBar.swift */; };
 		687FBADF25082CEB00EADA03 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FBADE25082CEB00EADA03 /* Model.swift */; };
 		687FBAE225082D9100EADA03 /* BetterSafariView in Frameworks */ = {isa = PBXBuildFile; productRef = 687FBAE125082D9100EADA03 /* BetterSafariView */; };
+		687FBB1625086FE700EADA03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687FBB1525086FE700EADA03 /* Assets.xcassets */; };
+		687FBB1D25086FE800EADA03 /* Hashflag Stickers MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 687FBB1C25086FE800EADA03 /* Hashflag Stickers MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		687FBB2225086FE800EADA03 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687FBB2125086FE800EADA03 /* Messages.framework */; };
+		687FBB2525086FE800EADA03 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FBB2425086FE800EADA03 /* MessagesViewController.swift */; };
+		687FBB2825086FE800EADA03 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687FBB2625086FE800EADA03 /* MainInterface.storyboard */; };
+		687FBB2A25086FE800EADA03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687FBB2925086FE800EADA03 /* Assets.xcassets */; };
+		687FBB342508766700EADA03 /* StickerBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FBB332508766700EADA03 /* StickerBrowserViewController.swift */; };
+		687FBB352508773F00EADA03 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FBADE25082CEB00EADA03 /* Model.swift */; };
+		6891867D2509474E00C25061 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6891867C2509474E00C25061 /* Persistence.swift */; };
+		689186802509478200C25061 /* Hashflag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6891867E2509478200C25061 /* Hashflag.xcdatamodeld */; };
+		689186872509728400C25061 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689186862509728400C25061 /* WidgetKit.framework */; };
+		689186892509728400C25061 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689186882509728400C25061 /* SwiftUI.framework */; };
+		6891868C2509728400C25061 /* Hashflag_Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6891868B2509728400C25061 /* Hashflag_Widgets.swift */; };
+		6891868F2509728500C25061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6891868E2509728500C25061 /* Assets.xcassets */; };
+		689186912509728500C25061 /* Hashflag_Widgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 6891868D2509728400C25061 /* Hashflag_Widgets.intentdefinition */; };
+		689186922509728500C25061 /* Hashflag_Widgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 6891868D2509728400C25061 /* Hashflag_Widgets.intentdefinition */; };
+		689186952509728500C25061 /* Hashflag WidgetsExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 689186852509728400C25061 /* Hashflag WidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6891869E2509752900C25061 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FBADE25082CEB00EADA03 /* Model.swift */; };
+		6891869F2509752D00C25061 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6891867C2509474E00C25061 /* Persistence.swift */; };
+		689186A02509752D00C25061 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6891867C2509474E00C25061 /* Persistence.swift */; };
+		689186A12509753200C25061 /* Hashflag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6891867E2509478200C25061 /* Hashflag.xcdatamodeld */; };
+		689186A22509753200C25061 /* Hashflag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6891867E2509478200C25061 /* Hashflag.xcdatamodeld */; };
+		689186D8250982F700C25061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689186D7250982F700C25061 /* Assets.xcassets */; };
+		689186DF250982F700C25061 /* Hashflag Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 689186DE250982F700C25061 /* Hashflag Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		689186E4250982F700C25061 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689186E3250982F700C25061 /* ContentView.swift */; };
+		689186E6250982F700C25061 /* HashflagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689186E5250982F700C25061 /* HashflagApp.swift */; };
+		689186E8250982F700C25061 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689186E7250982F700C25061 /* ComplicationController.swift */; };
+		689186EA250982F800C25061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689186E9250982F800C25061 /* Assets.xcassets */; };
+		689186ED250982F800C25061 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689186EC250982F800C25061 /* Preview Assets.xcassets */; };
+		689186F1250982F800C25061 /* Hashflag Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 689186D5250982F700C25061 /* Hashflag Watch.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		689186FA2509831600C25061 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FBADE25082CEB00EADA03 /* Model.swift */; };
+		689186FB2509831600C25061 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6891867C2509474E00C25061 /* Persistence.swift */; };
+		689186FC2509831800C25061 /* Hashflag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6891867E2509478200C25061 /* Hashflag.xcdatamodeld */; };
+		689186FF250983F700C25061 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 689186FE250983F700C25061 /* SDWebImageSwiftUI */; };
+		689DE6052509B94000522B80 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 689DE6042509B94000522B80 /* SDWebImageSwiftUI */; };
+		689DE6072509F60700522B80 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 689DE6062509F60700522B80 /* SDWebImageSwiftUI */; };
+		689DE609250A867B00522B80 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689DE608250A867B00522B80 /* LottieView.swift */; };
+		689DE60B250A86C000522B80 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689DE60A250A86C000522B80 /* DetailView.swift */; };
+		689DE60D250A86EC00522B80 /* FilterSortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689DE60C250A86EC00522B80 /* FilterSortView.swift */; };
+		689DE60F250A872300522B80 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689DE60E250A872300522B80 /* SettingsView.swift */; };
+		689DE611250A87DC00522B80 /* DetailPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689DE610250A87DC00522B80 /* DetailPlaceholder.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		687FBB1E25086FE800EADA03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 687FBAB5250824AC00EADA03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 687FBB1B25086FE800EADA03;
+			remoteInfo = "Hashflag Stickers MessagesExtension";
+		};
+		689186932509728500C25061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 687FBAB5250824AC00EADA03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689186842509728400C25061;
+			remoteInfo = "Hashflag WidgetsExtension";
+		};
+		689186E0250982F700C25061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 687FBAB5250824AC00EADA03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689186DD250982F700C25061;
+			remoteInfo = "Hashflag Watch Extension";
+		};
+		689186EF250982F800C25061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 687FBAB5250824AC00EADA03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689186D4250982F700C25061;
+			remoteInfo = "Hashflag Watch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		687FBAF025086F0700EADA03 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				689186952509728500C25061 /* Hashflag WidgetsExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687FBB2F25086FE800EADA03 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				687FBB1D25086FE800EADA03 /* Hashflag Stickers MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689186F5250982F800C25061 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				689186DF250982F700C25061 /* Hashflag Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689186F9250982F800C25061 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				689186F1250982F800C25061 /* Hashflag Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		687FBABD250824AC00EADA03 /* Hashflag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hashflag.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +148,44 @@
 		687FBADA25082B3600EADA03 /* ViewControllerResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerResolver.swift; sourceTree = "<group>"; };
 		687FBADC25082B4E00EADA03 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		687FBADE25082CEB00EADA03 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		687FBB1325086FE700EADA03 /* Hashflag Stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hashflag Stickers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		687FBB1525086FE700EADA03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		687FBB1725086FE700EADA03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687FBB1C25086FE800EADA03 /* Hashflag Stickers MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hashflag Stickers MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		687FBB2125086FE800EADA03 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		687FBB2425086FE800EADA03 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		687FBB2725086FE800EADA03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		687FBB2925086FE800EADA03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		687FBB2B25086FE800EADA03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687FBB332508766700EADA03 /* StickerBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerBrowserViewController.swift; sourceTree = "<group>"; };
+		6891867C2509474E00C25061 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		6891867F2509478200C25061 /* Hashflag.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hashflag.xcdatamodel; sourceTree = "<group>"; };
+		689186852509728400C25061 /* Hashflag WidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hashflag WidgetsExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		689186862509728400C25061 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		689186882509728400C25061 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		6891868B2509728400C25061 /* Hashflag_Widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hashflag_Widgets.swift; sourceTree = "<group>"; };
+		6891868D2509728400C25061 /* Hashflag_Widgets.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Hashflag_Widgets.intentdefinition; sourceTree = "<group>"; };
+		6891868E2509728500C25061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		689186902509728500C25061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689186962509728500C25061 /* Hashflag WidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hashflag WidgetsExtension.entitlements"; sourceTree = "<group>"; };
+		6891869D250973FF00C25061 /* Hashflag Stickers MessagesExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hashflag Stickers MessagesExtension.entitlements"; sourceTree = "<group>"; };
+		689186D5250982F700C25061 /* Hashflag Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hashflag Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		689186D7250982F700C25061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		689186D9250982F700C25061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689186DE250982F700C25061 /* Hashflag Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hashflag Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		689186E3250982F700C25061 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		689186E5250982F700C25061 /* HashflagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashflagApp.swift; sourceTree = "<group>"; };
+		689186E7250982F700C25061 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		689186E9250982F800C25061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		689186EC250982F800C25061 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		689186EE250982F800C25061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689186FD250983B200C25061 /* Hashflag Watch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hashflag Watch Extension.entitlements"; sourceTree = "<group>"; };
+		689D36E8250918970052B127 /* Hashflag.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hashflag.entitlements; sourceTree = "<group>"; };
+		689DE608250A867B00522B80 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		689DE60A250A86C000522B80 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		689DE60C250A86EC00522B80 /* FilterSortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSortView.swift; sourceTree = "<group>"; };
+		689DE60E250A872300522B80 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		689DE610250A87DC00522B80 /* DetailPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPlaceholder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,13 +199,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		687FBB1925086FE800EADA03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689DE6052509B94000522B80 /* SDWebImageSwiftUI in Frameworks */,
+				687FBB2225086FE800EADA03 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689186822509728400C25061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689DE6072509F60700522B80 /* SDWebImageSwiftUI in Frameworks */,
+				689186892509728400C25061 /* SwiftUI.framework in Frameworks */,
+				689186872509728400C25061 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689186DB250982F700C25061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689186FF250983F700C25061 /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		687FBAB4250824AC00EADA03 = {
 			isa = PBXGroup;
 			children = (
+				689186962509728500C25061 /* Hashflag WidgetsExtension.entitlements */,
+				6891869A250972DA00C25061 /* Shared */,
 				687FBABF250824AC00EADA03 /* Hashflag */,
+				687FBB1425086FE700EADA03 /* Hashflag Stickers */,
+				687FBB2325086FE800EADA03 /* Hashflag Stickers MessagesExtension */,
+				6891868A2509728400C25061 /* Hashflag Widgets */,
+				689186D6250982F700C25061 /* Hashflag Watch */,
+				689186E2250982F700C25061 /* Hashflag Watch Extension */,
+				687FBB2025086FE800EADA03 /* Frameworks */,
 				687FBABE250824AC00EADA03 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +249,11 @@
 			isa = PBXGroup;
 			children = (
 				687FBABD250824AC00EADA03 /* Hashflag.app */,
+				687FBB1325086FE700EADA03 /* Hashflag Stickers.app */,
+				687FBB1C25086FE800EADA03 /* Hashflag Stickers MessagesExtension.appex */,
+				689186852509728400C25061 /* Hashflag WidgetsExtension.appex */,
+				689186D5250982F700C25061 /* Hashflag Watch.app */,
+				689186DE250982F700C25061 /* Hashflag Watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,11 +261,9 @@
 		687FBABF250824AC00EADA03 /* Hashflag */ = {
 			isa = PBXGroup;
 			children = (
+				6891869C2509733300C25061 /* Views */,
+				689D36E8250918970052B127 /* Hashflag.entitlements */,
 				687FBAC0250824AC00EADA03 /* HashflagApp.swift */,
-				687FBAC2250824AC00EADA03 /* ContentView.swift */,
-				687FBADE25082CEB00EADA03 /* Model.swift */,
-				687FBADC25082B4E00EADA03 /* SearchBar.swift */,
-				687FBADA25082B3600EADA03 /* ViewControllerResolver.swift */,
 				687FBAC4250824AD00EADA03 /* Assets.xcassets */,
 				687FBACE250824AD00EADA03 /* Info.plist */,
 				687FBAC6250824AD00EADA03 /* Preview Content */,
@@ -84,6 +279,113 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		687FBB1425086FE700EADA03 /* Hashflag Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				687FBB1525086FE700EADA03 /* Assets.xcassets */,
+				687FBB1725086FE700EADA03 /* Info.plist */,
+			);
+			path = "Hashflag Stickers";
+			sourceTree = "<group>";
+		};
+		687FBB2025086FE800EADA03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				687FBB2125086FE800EADA03 /* Messages.framework */,
+				689186862509728400C25061 /* WidgetKit.framework */,
+				689186882509728400C25061 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		687FBB2325086FE800EADA03 /* Hashflag Stickers MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6891869D250973FF00C25061 /* Hashflag Stickers MessagesExtension.entitlements */,
+				687FBB2425086FE800EADA03 /* MessagesViewController.swift */,
+				687FBB2625086FE800EADA03 /* MainInterface.storyboard */,
+				687FBB2925086FE800EADA03 /* Assets.xcassets */,
+				687FBB2B25086FE800EADA03 /* Info.plist */,
+				687FBB332508766700EADA03 /* StickerBrowserViewController.swift */,
+			);
+			path = "Hashflag Stickers MessagesExtension";
+			sourceTree = "<group>";
+		};
+		6891868A2509728400C25061 /* Hashflag Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				6891868B2509728400C25061 /* Hashflag_Widgets.swift */,
+				6891868D2509728400C25061 /* Hashflag_Widgets.intentdefinition */,
+				6891868E2509728500C25061 /* Assets.xcassets */,
+				689186902509728500C25061 /* Info.plist */,
+			);
+			path = "Hashflag Widgets";
+			sourceTree = "<group>";
+		};
+		6891869A250972DA00C25061 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				687FBADE25082CEB00EADA03 /* Model.swift */,
+				6891867C2509474E00C25061 /* Persistence.swift */,
+				6891867E2509478200C25061 /* Hashflag.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6891869B2509732500C25061 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				687FBADC25082B4E00EADA03 /* SearchBar.swift */,
+				687FBADA25082B3600EADA03 /* ViewControllerResolver.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		6891869C2509733300C25061 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6891869B2509732500C25061 /* SearchBar */,
+				687FBAC2250824AC00EADA03 /* ContentView.swift */,
+				689DE610250A87DC00522B80 /* DetailPlaceholder.swift */,
+				689DE608250A867B00522B80 /* LottieView.swift */,
+				689DE60C250A86EC00522B80 /* FilterSortView.swift */,
+				689DE60E250A872300522B80 /* SettingsView.swift */,
+				689DE60A250A86C000522B80 /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		689186D6250982F700C25061 /* Hashflag Watch */ = {
+			isa = PBXGroup;
+			children = (
+				689186D7250982F700C25061 /* Assets.xcassets */,
+				689186D9250982F700C25061 /* Info.plist */,
+			);
+			path = "Hashflag Watch";
+			sourceTree = "<group>";
+		};
+		689186E2250982F700C25061 /* Hashflag Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				689186FD250983B200C25061 /* Hashflag Watch Extension.entitlements */,
+				689186E3250982F700C25061 /* ContentView.swift */,
+				689186E5250982F700C25061 /* HashflagApp.swift */,
+				689186E7250982F700C25061 /* ComplicationController.swift */,
+				689186E9250982F800C25061 /* Assets.xcassets */,
+				689186EE250982F800C25061 /* Info.plist */,
+				689186EB250982F800C25061 /* Preview Content */,
+			);
+			path = "Hashflag Watch Extension";
+			sourceTree = "<group>";
+		};
+		689186EB250982F800C25061 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				689186EC250982F800C25061 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -94,10 +396,14 @@
 				687FBAB9250824AC00EADA03 /* Sources */,
 				687FBABA250824AC00EADA03 /* Frameworks */,
 				687FBABB250824AC00EADA03 /* Resources */,
+				687FBAF025086F0700EADA03 /* Embed App Extensions */,
+				689186F9250982F800C25061 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				689186942509728500C25061 /* PBXTargetDependency */,
+				689186F0250982F800C25061 /* PBXTargetDependency */,
 			);
 			name = Hashflag;
 			packageProductDependencies = (
@@ -109,6 +415,100 @@
 			productReference = 687FBABD250824AC00EADA03 /* Hashflag.app */;
 			productType = "com.apple.product-type.application";
 		};
+		687FBB1225086FE700EADA03 /* Hashflag Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687FBB3025086FE800EADA03 /* Build configuration list for PBXNativeTarget "Hashflag Stickers" */;
+			buildPhases = (
+				687FBB1125086FE700EADA03 /* Resources */,
+				687FBB2F25086FE800EADA03 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				687FBB1F25086FE800EADA03 /* PBXTargetDependency */,
+			);
+			name = "Hashflag Stickers";
+			productName = "Hashflag Stickers";
+			productReference = 687FBB1325086FE700EADA03 /* Hashflag Stickers.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		687FBB1B25086FE800EADA03 /* Hashflag Stickers MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687FBB2C25086FE800EADA03 /* Build configuration list for PBXNativeTarget "Hashflag Stickers MessagesExtension" */;
+			buildPhases = (
+				687FBB1825086FE800EADA03 /* Sources */,
+				687FBB1925086FE800EADA03 /* Frameworks */,
+				687FBB1A25086FE800EADA03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hashflag Stickers MessagesExtension";
+			packageProductDependencies = (
+				689DE6042509B94000522B80 /* SDWebImageSwiftUI */,
+			);
+			productName = "Hashflag Stickers MessagesExtension";
+			productReference = 687FBB1C25086FE800EADA03 /* Hashflag Stickers MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+		689186842509728400C25061 /* Hashflag WidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689186972509728500C25061 /* Build configuration list for PBXNativeTarget "Hashflag WidgetsExtension" */;
+			buildPhases = (
+				689186812509728400C25061 /* Sources */,
+				689186822509728400C25061 /* Frameworks */,
+				689186832509728400C25061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hashflag WidgetsExtension";
+			packageProductDependencies = (
+				689DE6062509F60700522B80 /* SDWebImageSwiftUI */,
+			);
+			productName = "Hashflag WidgetsExtension";
+			productReference = 689186852509728400C25061 /* Hashflag WidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		689186D4250982F700C25061 /* Hashflag Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689186F6250982F800C25061 /* Build configuration list for PBXNativeTarget "Hashflag Watch" */;
+			buildPhases = (
+				689186D3250982F700C25061 /* Resources */,
+				689186F5250982F800C25061 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				689186E1250982F700C25061 /* PBXTargetDependency */,
+			);
+			name = "Hashflag Watch";
+			productName = "Hashflag Watch";
+			productReference = 689186D5250982F700C25061 /* Hashflag Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		689186DD250982F700C25061 /* Hashflag Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689186F2250982F800C25061 /* Build configuration list for PBXNativeTarget "Hashflag Watch Extension" */;
+			buildPhases = (
+				689186DA250982F700C25061 /* Sources */,
+				689186DB250982F700C25061 /* Frameworks */,
+				689186DC250982F700C25061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hashflag Watch Extension";
+			packageProductDependencies = (
+				689186FE250983F700C25061 /* SDWebImageSwiftUI */,
+			);
+			productName = "Hashflag Watch Extension";
+			productReference = 689186DE250982F700C25061 /* Hashflag Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -119,6 +519,21 @@
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					687FBABC250824AC00EADA03 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					687FBB1225086FE700EADA03 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					687FBB1B25086FE800EADA03 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					689186842509728400C25061 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					689186D4250982F700C25061 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					689186DD250982F700C25061 = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
@@ -142,6 +557,11 @@
 			projectRoot = "";
 			targets = (
 				687FBABC250824AC00EADA03 /* Hashflag */,
+				687FBB1225086FE700EADA03 /* Hashflag Stickers */,
+				687FBB1B25086FE800EADA03 /* Hashflag Stickers MessagesExtension */,
+				689186842509728400C25061 /* Hashflag WidgetsExtension */,
+				689186D4250982F700C25061 /* Hashflag Watch */,
+				689186DD250982F700C25061 /* Hashflag Watch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -156,6 +576,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		687FBB1125086FE700EADA03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687FBB1625086FE700EADA03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687FBB1A25086FE800EADA03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687FBB2A25086FE800EADA03 /* Assets.xcassets in Resources */,
+				687FBB2825086FE800EADA03 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689186832509728400C25061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6891868F2509728500C25061 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689186D3250982F700C25061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689186D8250982F700C25061 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689186DC250982F700C25061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689186ED250982F800C25061 /* Preview Assets.xcassets in Resources */,
+				689186EA250982F800C25061 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -164,14 +626,94 @@
 			buildActionMask = 2147483647;
 			files = (
 				687FBADF25082CEB00EADA03 /* Model.swift in Sources */,
+				689DE60D250A86EC00522B80 /* FilterSortView.swift in Sources */,
 				687FBADB25082B3600EADA03 /* ViewControllerResolver.swift in Sources */,
+				689DE609250A867B00522B80 /* LottieView.swift in Sources */,
+				689DE60B250A86C000522B80 /* DetailView.swift in Sources */,
+				689DE611250A87DC00522B80 /* DetailPlaceholder.swift in Sources */,
+				689186922509728500C25061 /* Hashflag_Widgets.intentdefinition in Sources */,
 				687FBAC3250824AC00EADA03 /* ContentView.swift in Sources */,
+				689186802509478200C25061 /* Hashflag.xcdatamodeld in Sources */,
+				6891867D2509474E00C25061 /* Persistence.swift in Sources */,
+				689DE60F250A872300522B80 /* SettingsView.swift in Sources */,
 				687FBAC1250824AC00EADA03 /* HashflagApp.swift in Sources */,
 				687FBADD25082B4E00EADA03 /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		687FBB1825086FE800EADA03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687FBB352508773F00EADA03 /* Model.swift in Sources */,
+				6891869F2509752D00C25061 /* Persistence.swift in Sources */,
+				687FBB2525086FE800EADA03 /* MessagesViewController.swift in Sources */,
+				689186A12509753200C25061 /* Hashflag.xcdatamodeld in Sources */,
+				687FBB342508766700EADA03 /* StickerBrowserViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689186812509728400C25061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6891869E2509752900C25061 /* Model.swift in Sources */,
+				689186A02509752D00C25061 /* Persistence.swift in Sources */,
+				689186912509728500C25061 /* Hashflag_Widgets.intentdefinition in Sources */,
+				689186A22509753200C25061 /* Hashflag.xcdatamodeld in Sources */,
+				6891868C2509728400C25061 /* Hashflag_Widgets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689186DA250982F700C25061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689186E4250982F700C25061 /* ContentView.swift in Sources */,
+				689186E6250982F700C25061 /* HashflagApp.swift in Sources */,
+				689186E8250982F700C25061 /* ComplicationController.swift in Sources */,
+				689186FA2509831600C25061 /* Model.swift in Sources */,
+				689186FB2509831600C25061 /* Persistence.swift in Sources */,
+				689186FC2509831800C25061 /* Hashflag.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		687FBB1F25086FE800EADA03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 687FBB1B25086FE800EADA03 /* Hashflag Stickers MessagesExtension */;
+			targetProxy = 687FBB1E25086FE800EADA03 /* PBXContainerItemProxy */;
+		};
+		689186942509728500C25061 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689186842509728400C25061 /* Hashflag WidgetsExtension */;
+			targetProxy = 689186932509728500C25061 /* PBXContainerItemProxy */;
+		};
+		689186E1250982F700C25061 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689186DD250982F700C25061 /* Hashflag Watch Extension */;
+			targetProxy = 689186E0250982F700C25061 /* PBXContainerItemProxy */;
+		};
+		689186F0250982F800C25061 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 689186D4250982F700C25061 /* Hashflag Watch */;
+			targetProxy = 689186EF250982F800C25061 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		687FBB2625086FE800EADA03 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687FBB2725086FE800EADA03 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		687FBACF250824AD00EADA03 /* Debug */ = {
@@ -293,8 +835,10 @@
 		687FBAD2250824AD00EADA03 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Hashflag/Hashflag.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Hashflag/Preview Content\"";
 				DEVELOPMENT_TEAM = F9PGNEMEHU;
@@ -307,16 +851,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ericlewis.Hashflag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
 		687FBAD3250824AD00EADA03 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Hashflag/Hashflag.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Hashflag/Preview Content\"";
 				DEVELOPMENT_TEAM = F9PGNEMEHU;
@@ -329,8 +877,218 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ericlewis.Hashflag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Release;
+		};
+		687FBB2D25086FE800EADA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = "Hashflag Stickers MessagesExtension/Hashflag Stickers MessagesExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9PGNEMEHU;
+				INFOPLIST_FILE = "Hashflag Stickers MessagesExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.Hashflag-Stickers.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		687FBB2E25086FE800EADA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = "Hashflag Stickers MessagesExtension/Hashflag Stickers MessagesExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9PGNEMEHU;
+				INFOPLIST_FILE = "Hashflag Stickers MessagesExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.Hashflag-Stickers.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		687FBB3125086FE800EADA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9PGNEMEHU;
+				INFOPLIST_FILE = "Hashflag Stickers/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.Hashflag-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		687FBB3225086FE800EADA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9PGNEMEHU;
+				INFOPLIST_FILE = "Hashflag Stickers/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.Hashflag-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		689186982509728500C25061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Hashflag WidgetsExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9PGNEMEHU;
+				INFOPLIST_FILE = "Hashflag Widgets/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.Hashflag.Hashflag-Widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		689186992509728500C25061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Hashflag WidgetsExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9PGNEMEHU;
+				INFOPLIST_FILE = "Hashflag Widgets/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.Hashflag.Hashflag-Widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		689186F3250982F800C25061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Hashflag Watch Extension/Hashflag Watch Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Hashflag Watch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = F9PGNEMEHU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Hashflag Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericlewis.Hashflag.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		689186F4250982F800C25061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Hashflag Watch Extension/Hashflag Watch Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Hashflag Watch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = F9PGNEMEHU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Hashflag Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericlewis.Hashflag.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		689186F7250982F800C25061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9PGNEMEHU;
+				IBSC_MODULE = Hashflag_Watch_Extension;
+				INFOPLIST_FILE = "Hashflag Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericlewis.Hashflag.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		689186F8250982F800C25061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9PGNEMEHU;
+				IBSC_MODULE = Hashflag_Watch_Extension;
+				INFOPLIST_FILE = "Hashflag Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericlewis.Hashflag.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Release;
 		};
@@ -351,6 +1109,51 @@
 			buildConfigurations = (
 				687FBAD2250824AD00EADA03 /* Debug */,
 				687FBAD3250824AD00EADA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687FBB2C25086FE800EADA03 /* Build configuration list for PBXNativeTarget "Hashflag Stickers MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687FBB2D25086FE800EADA03 /* Debug */,
+				687FBB2E25086FE800EADA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687FBB3025086FE800EADA03 /* Build configuration list for PBXNativeTarget "Hashflag Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687FBB3125086FE800EADA03 /* Debug */,
+				687FBB3225086FE800EADA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689186972509728500C25061 /* Build configuration list for PBXNativeTarget "Hashflag WidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689186982509728500C25061 /* Debug */,
+				689186992509728500C25061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689186F2250982F800C25061 /* Build configuration list for PBXNativeTarget "Hashflag Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689186F3250982F800C25061 /* Debug */,
+				689186F4250982F800C25061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689186F6250982F800C25061 /* Build configuration list for PBXNativeTarget "Hashflag Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689186F7250982F800C25061 /* Debug */,
+				689186F8250982F800C25061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -400,7 +1203,35 @@
 			package = 687FBAE025082D9100EADA03 /* XCRemoteSwiftPackageReference "BetterSafariView" */;
 			productName = BetterSafariView;
 		};
+		689186FE250983F700C25061 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 687FBAD4250824CF00EADA03 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		689DE6042509B94000522B80 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 687FBAD4250824CF00EADA03 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		689DE6062509F60700522B80 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 687FBAD4250824CF00EADA03 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		6891867E2509478200C25061 /* Hashflag.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6891867F2509478200C25061 /* Hashflag.xcdatamodel */,
+			);
+			currentVersion = 6891867F2509478200C25061 /* Hashflag.xcdatamodel */;
+			path = Hashflag.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 687FBAB5250824AC00EADA03 /* Project object */;
 }

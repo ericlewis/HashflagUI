@@ -6,12 +6,28 @@
 //
 
 import SwiftUI
+import SDWebImage
 
 @main
 struct HashflagApp: App {
+    private let api = API()
+    private let persistenceController = PersistenceController.shared
+
+    init() {
+        let path = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.hashflag")?.path
+        let cache = SDImageCache(namespace: "Hashflag",
+                                 diskCacheDirectory: path)
+        
+        SDImageCachesManager.shared.addCache(cache)
+        SDWebImageManager.defaultImageCache = SDImageCachesManager.shared
+        SDWebImageManager.shared.transformer = SDImageResizingTransformer(size: CGSize(width: 300, height: 300),
+                                                                          scaleMode: .fill)
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

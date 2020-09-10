@@ -19,14 +19,18 @@ class SearchBar: NSObject, ObservableObject {
     }
 }
 
-extension SearchBar: UISearchResultsUpdating {
-   
+extension SearchBar: UISearchResultsUpdating, UISearchBarDelegate {
+    
     func updateSearchResults(for searchController: UISearchController) {
         
         // Publish search bar text changes.
         if let searchBarText = searchController.searchBar.text {
             self.text = searchBarText
         }
+    }
+    
+    func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
+        
     }
 }
 
@@ -40,7 +44,7 @@ struct SearchBarModifier: ViewModifier {
                 ViewControllerResolver { viewController in
                     viewController.navigationItem.searchController = self.searchBar.searchController
                 }
-                    .frame(width: 0, height: 0)
+                .frame(width: 0, height: 0)
             )
     }
 }

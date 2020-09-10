@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17189" systemVersion="20A5354i" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Hashflag" representedClassName="Hashflag" syncable="YES" codeGenerationType="class">
+        <attribute name="assetURL" optional="YES" attributeType="URI"/>
+        <attribute name="campaignName" optional="YES" attributeType="String"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="hashtag" optional="YES" attributeType="String"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="animations" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="InteractiveAnimation" inverseName="hashflag" inverseEntity="InteractiveAnimation"/>
+    </entity>
+    <entity name="InteractiveAnimation" representedClassName="InteractiveAnimation" syncable="YES" codeGenerationType="class">
+        <attribute name="assetURL" optional="YES" attributeType="URI"/>
+        <attribute name="context" optional="YES" attributeType="String"/>
+        <relationship name="hashflag" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Hashflag" inverseName="animations" inverseEntity="Hashflag"/>
+    </entity>
+    <elements>
+        <element name="Hashflag" positionX="-63" positionY="-18" width="128" height="119"/>
+        <element name="InteractiveAnimation" positionX="-54" positionY="27" width="128" height="74"/>
+    </elements>
+</model>
