@@ -332,25 +332,17 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		6891869B2509732500C25061 /* SearchBar */ = {
-			isa = PBXGroup;
-			children = (
-				687FBADC25082B4E00EADA03 /* SearchBar.swift */,
-				687FBADA25082B3600EADA03 /* ViewControllerResolver.swift */,
-			);
-			path = SearchBar;
-			sourceTree = "<group>";
-		};
 		6891869C2509733300C25061 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6891869B2509732500C25061 /* SearchBar */,
 				687FBAC2250824AC00EADA03 /* ContentView.swift */,
 				689DE610250A87DC00522B80 /* DetailPlaceholder.swift */,
-				689DE608250A867B00522B80 /* LottieView.swift */,
-				689DE60C250A86EC00522B80 /* FilterSortView.swift */,
-				689DE60E250A872300522B80 /* SettingsView.swift */,
 				689DE60A250A86C000522B80 /* DetailView.swift */,
+				689DE60C250A86EC00522B80 /* FilterSortView.swift */,
+				689DE608250A867B00522B80 /* LottieView.swift */,
+				687FBADC25082B4E00EADA03 /* SearchBar.swift */,
+				689DE60E250A872300522B80 /* SettingsView.swift */,
+				687FBADA25082B3600EADA03 /* ViewControllerResolver.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";

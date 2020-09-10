@@ -23,7 +23,7 @@ struct SettingsView: View {
                 }) {
                     HStack {
                         Spacer()
-                        Text("Clear Hashflag Cache")
+                        Text("Clear Hashflags")
                         Spacer()
                     }
                     .foregroundColor(.red)
@@ -36,7 +36,7 @@ struct SettingsView: View {
                 }) {
                     HStack {
                         Spacer()
-                        Text("Clear Image Cache")
+                        Text("Clear Images")
                         Spacer()
                     }
                     .foregroundColor(.red)

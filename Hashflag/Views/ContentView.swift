@@ -106,7 +106,11 @@ struct ContentView: View {
                 #endif
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: setSheet(.filterSort)) {
-                        Label("Filter & Sort", systemImage: "line.horizontal.3.decrease.circle")
+                        if selectedSort == .alphabetical && selectedFilter == .all {
+                            Label("Filter & Sort", systemImage: "line.horizontal.3.decrease.circle")
+                        } else {
+                            Label("Filter & Sort", systemImage: "line.horizontal.3.decrease.circle.fill")
+                        }
                     }
                 }
             }
