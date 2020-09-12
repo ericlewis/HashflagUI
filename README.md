@@ -6,3 +6,6 @@ To serve as a fun explorative ground for all things SwiftUI across all the platf
 
 ## Goals
 Nothing in specific, if you want to take this any direction just open a PR.
+
+## License
+MIT, someone should open a PR to include that :eyes:
