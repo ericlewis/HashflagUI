@@ -14,13 +14,18 @@ struct FilterSortView: View {
     var body: some View {
         Form {
             Section(header: Text("Filter")) {
-                CheckmarkButton("All", selected: selectedFilter == .all) { selectedFilter = .all }
-                CheckmarkButton("Animated", selected: selectedFilter == .animated) { selectedFilter = .animated }
+                CheckmarkButton("All", selected: selectedFilter == .all)
+                    { selectedFilter = .all }
+                CheckmarkButton("Animated", selected: selectedFilter == .animated)
+                    { selectedFilter = .animated }
             }
             Section(header: Text("Sort")) {
-                CheckmarkButton("Alphabetical", selected: selectedSort == .alphabetical) { selectedSort = .alphabetical }
-                CheckmarkButton("Latest", selected: selectedSort == .latest) { selectedSort = .latest }
-                CheckmarkButton("Ending Soon", selected: selectedSort == .endingSoon) { selectedSort = .endingSoon }
+                CheckmarkButton("Alphabetical", selected: selectedSort == .alphabetical)
+                    { selectedSort = .alphabetical }
+                CheckmarkButton("Latest", selected: selectedSort == .latest)
+                    { selectedSort = .latest }
+                CheckmarkButton("Ending Soon", selected: selectedSort == .endingSoon)
+                    { selectedSort = .endingSoon }
             }
         }
         .listStyle(InsetGroupedListStyle())

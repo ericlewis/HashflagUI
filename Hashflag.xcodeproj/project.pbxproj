@@ -16,7 +16,6 @@
 		687FBADB25082B3600EADA03 /* ViewControllerResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FBADA25082B3600EADA03 /* ViewControllerResolver.swift */; };
 		687FBADD25082B4E00EADA03 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FBADC25082B4E00EADA03 /* SearchBar.swift */; };
 		687FBADF25082CEB00EADA03 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FBADE25082CEB00EADA03 /* Model.swift */; };
-		687FBAE225082D9100EADA03 /* BetterSafariView in Frameworks */ = {isa = PBXBuildFile; productRef = 687FBAE125082D9100EADA03 /* BetterSafariView */; };
 		687FBB1625086FE700EADA03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687FBB1525086FE700EADA03 /* Assets.xcassets */; };
 		687FBB1D25086FE800EADA03 /* Hashflag Stickers MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 687FBB1C25086FE800EADA03 /* Hashflag Stickers MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		687FBB2225086FE800EADA03 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687FBB2125086FE800EADA03 /* Messages.framework */; };
@@ -25,6 +24,8 @@
 		687FBB2A25086FE800EADA03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687FBB2925086FE800EADA03 /* Assets.xcassets */; };
 		687FBB342508766700EADA03 /* StickerBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FBB332508766700EADA03 /* StickerBrowserViewController.swift */; };
 		687FBB352508773F00EADA03 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FBADE25082CEB00EADA03 /* Model.swift */; };
+		68904EB2250ADB0100082D91 /* StickerARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68904EB1250ADB0100082D91 /* StickerARView.swift */; };
+		68904ED4250ADE4500082D91 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 68904ED3250ADE3A00082D91 /* Experience.rcproject */; };
 		6891867D2509474E00C25061 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6891867C2509474E00C25061 /* Persistence.swift */; };
 		689186802509478200C25061 /* Hashflag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6891867E2509478200C25061 /* Hashflag.xcdatamodeld */; };
 		689186872509728400C25061 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689186862509728400C25061 /* WidgetKit.framework */; };
@@ -158,6 +159,8 @@
 		687FBB2925086FE800EADA03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		687FBB2B25086FE800EADA03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		687FBB332508766700EADA03 /* StickerBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerBrowserViewController.swift; sourceTree = "<group>"; };
+		68904EB1250ADB0100082D91 /* StickerARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerARView.swift; sourceTree = "<group>"; };
+		68904ED3250ADE3A00082D91 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		6891867C2509474E00C25061 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		6891867F2509478200C25061 /* Hashflag.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hashflag.xcdatamodel; sourceTree = "<group>"; };
 		689186852509728400C25061 /* Hashflag WidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hashflag WidgetsExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,6 +189,7 @@
 		689DE60C250A86EC00522B80 /* FilterSortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSortView.swift; sourceTree = "<group>"; };
 		689DE60E250A872300522B80 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		689DE610250A87DC00522B80 /* DetailPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPlaceholder.swift; sourceTree = "<group>"; };
+		689DE612250AA53700522B80 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = Hashflag/Settings.bundle; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,7 +198,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				687FBAD6250824CF00EADA03 /* SDWebImageSwiftUI in Frameworks */,
-				687FBAE225082D9100EADA03 /* BetterSafariView in Frameworks */,
 				687FBAD9250824F300EADA03 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,7 +235,6 @@
 		687FBAB4250824AC00EADA03 = {
 			isa = PBXGroup;
 			children = (
-				689186962509728500C25061 /* Hashflag WidgetsExtension.entitlements */,
 				6891869A250972DA00C25061 /* Shared */,
 				687FBABF250824AC00EADA03 /* Hashflag */,
 				687FBB1425086FE700EADA03 /* Hashflag Stickers */,
@@ -261,6 +263,7 @@
 		687FBABF250824AC00EADA03 /* Hashflag */ = {
 			isa = PBXGroup;
 			children = (
+				689DE612250AA53700522B80 /* Settings.bundle */,
 				6891869C2509733300C25061 /* Views */,
 				689D36E8250918970052B127 /* Hashflag.entitlements */,
 				687FBAC0250824AC00EADA03 /* HashflagApp.swift */,
@@ -314,6 +317,7 @@
 		6891868A2509728400C25061 /* Hashflag Widgets */ = {
 			isa = PBXGroup;
 			children = (
+				689186962509728500C25061 /* Hashflag WidgetsExtension.entitlements */,
 				6891868B2509728400C25061 /* Hashflag_Widgets.swift */,
 				6891868D2509728400C25061 /* Hashflag_Widgets.intentdefinition */,
 				6891868E2509728500C25061 /* Assets.xcassets */,
@@ -343,6 +347,8 @@
 				687FBADC25082B4E00EADA03 /* SearchBar.swift */,
 				689DE60E250A872300522B80 /* SettingsView.swift */,
 				687FBADA25082B3600EADA03 /* ViewControllerResolver.swift */,
+				68904EB1250ADB0100082D91 /* StickerARView.swift */,
+				68904ED3250ADE3A00082D91 /* Experience.rcproject */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -401,7 +407,6 @@
 			packageProductDependencies = (
 				687FBAD5250824CF00EADA03 /* SDWebImageSwiftUI */,
 				687FBAD8250824F300EADA03 /* Lottie */,
-				687FBAE125082D9100EADA03 /* BetterSafariView */,
 			);
 			productName = Hashflag;
 			productReference = 687FBABD250824AC00EADA03 /* Hashflag.app */;
@@ -542,7 +547,6 @@
 			packageReferences = (
 				687FBAD4250824CF00EADA03 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 				687FBAD7250824F200EADA03 /* XCRemoteSwiftPackageReference "lottie-ios" */,
-				687FBAE025082D9100EADA03 /* XCRemoteSwiftPackageReference "BetterSafariView" */,
 			);
 			productRefGroup = 687FBABE250824AC00EADA03 /* Products */;
 			projectDirPath = "";
@@ -626,7 +630,9 @@
 				689186922509728500C25061 /* Hashflag_Widgets.intentdefinition in Sources */,
 				687FBAC3250824AC00EADA03 /* ContentView.swift in Sources */,
 				689186802509478200C25061 /* Hashflag.xcdatamodeld in Sources */,
+				68904EB2250ADB0100082D91 /* StickerARView.swift in Sources */,
 				6891867D2509474E00C25061 /* Persistence.swift in Sources */,
+				68904ED4250ADE4500082D91 /* Experience.rcproject in Sources */,
 				689DE60F250A872300522B80 /* SettingsView.swift in Sources */,
 				687FBAC1250824AC00EADA03 /* HashflagApp.swift in Sources */,
 				687FBADD25082B4E00EADA03 /* SearchBar.swift in Sources */,
@@ -953,7 +959,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = "Hashflag WidgetsExtension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Hashflag Widgets/Hashflag WidgetsExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F9PGNEMEHU;
 				INFOPLIST_FILE = "Hashflag Widgets/Info.plist";
@@ -976,7 +982,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = "Hashflag WidgetsExtension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Hashflag Widgets/Hashflag WidgetsExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F9PGNEMEHU;
 				INFOPLIST_FILE = "Hashflag Widgets/Info.plist";
@@ -1169,14 +1175,6 @@
 				minimumVersion = 3.1.8;
 			};
 		};
-		687FBAE025082D9100EADA03 /* XCRemoteSwiftPackageReference "BetterSafariView" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/stleamist/BetterSafariView";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.2.2;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1189,11 +1187,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 687FBAD7250824F200EADA03 /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
-		};
-		687FBAE125082D9100EADA03 /* BetterSafariView */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 687FBAE025082D9100EADA03 /* XCRemoteSwiftPackageReference "BetterSafariView" */;
-			productName = BetterSafariView;
 		};
 		689186FE250983F700C25061 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;

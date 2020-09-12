@@ -29,7 +29,7 @@ class StickerBrowserViewController: MSStickerBrowserViewController {
     var cancellable: AnyCancellable?
     
     func loadStickers() {
-        let result = try? PersistenceController.shared.container.viewContext.fetch(FetchRequests.fetchAll())
+        let result = try? PersistenceController.shared.container.viewContext.fetch(FetchRequests.alphabetical())
         result?.forEach {
             createSticker(assetLocation: $0.imageURL!, assetDescription: "idk")
         }

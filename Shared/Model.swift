@@ -9,6 +9,14 @@ import SwiftUI
 import Combine
 import CoreData
 
+enum SelectedSort: String, CaseIterable, Identifiable {
+    case alphabetical, latest, endingSoon = "ending soon"
+    
+    var id: Self {
+        self
+    }
+}
+
 struct FetchRequests {
     private static func current() -> NSFetchRequest<Campaign> {
         let request: NSFetchRequest<Campaign> = Campaign.fetchRequest()
@@ -89,7 +97,7 @@ class API {
     private let url: URL? = {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd"
-        return URL(string: "https://pbs.twimg.com/hashflag/config-\(dateFormatter.string(from: Date())).json")
+        return URL(string: "https://pbs.twimg.com/hashflag/config-\(dateFormatter.string(from: Date()))-15.json")
     }()
     
     private var cancellable: AnyCancellable?

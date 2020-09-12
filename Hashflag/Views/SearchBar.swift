@@ -19,7 +19,7 @@ class SearchBar: NSObject, ObservableObject {
     }
 }
 
-extension SearchBar: UISearchResultsUpdating, UISearchBarDelegate {
+extension SearchBar: UISearchResultsUpdating {
     
     func updateSearchResults(for searchController: UISearchController) {
         
@@ -27,10 +27,6 @@ extension SearchBar: UISearchResultsUpdating, UISearchBarDelegate {
         if let searchBarText = searchController.searchBar.text {
             self.text = searchBarText
         }
-    }
-    
-    func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
-        
     }
 }
 

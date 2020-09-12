@@ -7,7 +7,6 @@
 
 import SwiftUI
 import SDWebImageSwiftUI
-import BetterSafariView
 
 struct DetailView: View {
     
@@ -50,6 +49,11 @@ struct DetailView: View {
                 }
                 .padding(.vertical)
                 .listRowInsets(.init())
+                NavigationLink(destination: ARViewContainer(url: campaign.imageURL!).edgesIgnoringSafeArea(.all)) {
+                    Label("See in AR", systemImage: "arkit")
+                        .font(.headline)
+                        .foregroundColor(.accentColor)
+                }
             }
             if let startDate = campaign.startDate, let endDate = campaign.endDate {
                 Section(header: Text("Availabile")) {
@@ -61,7 +65,7 @@ struct DetailView: View {
                 ForEach(campaign.hashtags?.allObjects as? [Hashtag] ?? []) { hashtag in
                     if let value = hashtag.value {
                         Button(action: {
-                            selectedHashtag = value
+                            UIApplication.shared.open(URL(string: "https://twitter.com/hashtag/\(value)")!, options: [:], completionHandler: nil)
                         }) {
                             Text("#\(Text(value))")
                                 .font(.headline)
@@ -72,8 +76,5 @@ struct DetailView: View {
         }
         .listStyle(InsetGroupedListStyle())
         .navigationTitle(Text(campaign.name ?? "No Title"))
-        .safariView(item: $selectedHashtag) {
-            SafariView(url: URL(string: "https://twitter.com/hashtag/\($0)")!)
-        }
     }
 }

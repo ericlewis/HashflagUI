@@ -13,10 +13,6 @@ enum SelectedFilter {
     case all, animated
 }
 
-enum SelectedSort {
-    case alphabetical, latest, endingSoon
-}
-
 struct ContentView: View {
     enum SheetType: Identifiable {
         case settings, filterSort
@@ -106,11 +102,8 @@ struct ContentView: View {
                 #endif
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: setSheet(.filterSort)) {
-                        if selectedSort == .alphabetical && selectedFilter == .all {
-                            Label("Filter & Sort", systemImage: "line.horizontal.3.decrease.circle")
-                        } else {
-                            Label("Filter & Sort", systemImage: "line.horizontal.3.decrease.circle.fill")
-                        }
+                        Label("Filter & Sort",
+                              systemImage: "line.horizontal.3.decrease.circle\(selectedSort != .alphabetical || selectedFilter != .all ? ".fill" : "")")
                     }
                 }
             }

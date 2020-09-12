@@ -2,15 +2,6 @@
   "object": {
     "pins": [
       {
-        "package": "BetterSafariView",
-        "repositoryURL": "https://github.com/stleamist/BetterSafariView",
-        "state": {
-          "branch": null,
-          "revision": "e2c53b467ed596ea12d2eee97a2e9431d943cdb9",
-          "version": "2.2.2"
-        }
-      },
-      {
         "package": "Lottie",
         "repositoryURL": "https://github.com/airbnb/lottie-ios",
         "state": {
