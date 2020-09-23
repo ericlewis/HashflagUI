@@ -11,7 +11,7 @@ To serve as a fun explorative ground for all things SwiftUI across all the platf
 Nothing in specific, if you want to take this any direction just open a PR.
 
 ## License
-MIT, someone should open a PR to include that :eyes:
+MIT
 
 ## Disclaimer
 Not affiliated with twitter nor could I promise they condone this app. Use modify, steal- at your own risk. I also do not claim this code is good.
